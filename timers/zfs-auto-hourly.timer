@@ -1,8 +1,0 @@
-[Unit]
-Description=Hourly ZFS snapshots at 0min past the hour.
-
-[Timer]
-OnCalendar=*-*-* *:00:00
- 
-[Install]
-WantedBy=timers.target
